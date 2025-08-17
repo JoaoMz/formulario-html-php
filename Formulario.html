@@ -9,8 +9,29 @@
 	<form name=	"cadastro" action="processa.php" method="POST" accept-charset="UTF-8">
 		<label>Nome	</label>
 		<input type="text" name="nome" size="30" placeholder="Digite seu nome aqui"><br>
-		
+		<label>Sobrenome</label>
+		<input type="text" name="sobrenome" size="50" placeholder="Digite seu sobrenome"><br>
+		<label>Senha</label>
+		<input type="password" name="senha" size=15 required>
+		<br>
+		<label>Sexo</label>
+		<br>
+		<input type="radio" name="sexo" value="M">Masculino<br>
+		<input type="radio" name="sexo" value="F">Feminino<br>
+		<br>
+		<label>Marque as opções de seu interesse</label><br>
+		<input type="checkbox" name="linguagens"value = "ASP">ASPNET<br>
+		<input type="checkbox" name="linguagens"value = "JavScript">JavaScript<br>
+		<input type="checkbox" name="linguagens"value = "PHP">PHP<br>
+		<input type="checkbox" name="linguagens"value = "Python">Python<br>
+		<br>
+		<label>Selecione um arquivo de seu computador para upload</label>
+		<input type="file" name="arquivo"><br>
+		<br>
+		<input type="submit" name="submit"value="Enviar"><br>
+		<input type="reset" name="reset"value= "Limpar"><br>
 
+		
 	</form>
 
 </body>
