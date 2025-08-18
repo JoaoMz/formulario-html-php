@@ -22,9 +22,9 @@ while ($registro = mysqli_fetch_array($resultado)) {
 
 	echo "<table border=1>";
 	echo "<tr>";
-	echo "<th>"$.$nome."</th>";
-	echo "<th>"$.$sobrenome."</th>";
-	echo "<th>"$.$sexo."</th>";
+	echo "<th>".$nome."</th>";
+	echo "<th>".$sobrenome."</th>";
+	echo "<th>".$sexo."</th>";
 	echo "</tr>";
 
 }
